@@ -1,6 +1,39 @@
 body{
-    background-color: aqua;
+    background-color: rgb(21, 8, 100);
 }
 h1{
-    color: brown;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 45px;
+}
+
+.container{
+    text-align: center;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 50px 50px 50px 50px;
+    margin: 10px 100px 100px 100px;
+    max-width: 500px;
+    margin: auto;
+} 
+.poem-line{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: azure;    border-radius: 10px;
+    padding: 50px 50px 50px 50px;
+    max-width: 500px;
+    margin: auto;
+    border-left: 12px solid #3beaea ;
+}
+
+.submit-button{
+    background-color: rgb(21, 8, 100);
+    color:white;
+    border-radius: 4px;
+    margin-left: 10px;
+    width: 100px;
+}
+.poem-content{
+    border-radius: 30px;
 }
