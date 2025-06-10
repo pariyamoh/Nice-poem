@@ -15,6 +15,7 @@ h1{
     margin: 10px 100px 100px 100px;
     max-width: 500px;
     margin: auto;
+        border-right: 12px solid #3beaea;
 } 
 .poem-line{
     color: rgb(0, 0, 0);
