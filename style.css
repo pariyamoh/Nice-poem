@@ -22,7 +22,7 @@ h1{
     opacity: 6px;
     font-size: 10px;
     font-family: monospace;
-    margin-right: 110px;
+    margin-right: 10px;
     padding-top: 10px;
 }
 .poem-line{
@@ -37,17 +37,21 @@ h1{
     border-left: 12px solid #3beaea ;
 }
 
+
+
 .submit-button{
     background-color: rgb(21, 8, 100);
     color:white;
     border-radius: 4px;
     margin-left: 10px;
     width: 100px;
+    margin-top: 70px;
 }
 .poem-content{
     border-radius: 6px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
 
 .hidden {
     display: none; }
