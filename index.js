@@ -16,8 +16,9 @@ event.preventDefault();
 
 
 let instructionInput = document.querySelector ("#instruction");
- 
-let prompt  = `Generate a poem about ${instructionInput.value} happiness in the world and make it beautiful`;
+let languageInput = document.querySelector ("#language-input");
+
+let prompt  = `Generate a poem about ${instructionInput.value} happiness in the world in the related language in ${languageInput.value} and make it beautiful.`;
 let context = 
 "You are a precise expert and love happiness. Your mission is to generate a 2 line poem that is in English and about children. I believe that you can do it";
 
