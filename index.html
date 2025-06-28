@@ -6,24 +6,32 @@
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <title>A nice poem</title>
-
 </head>
-<body>
-    <h1 >
-Do you need to enjoy a beautiful poem 🎨</h1>
 
+<body>
+<h1 >
+Are you willing to enjoy a beautiful poem 🎨</h1>
 <main>
 <form class="container" id="poem-generator-form">
-    <input type="text" placeholder="Write whatever you want"    class="poem-content" />
-    <input type="submit" class="submit-button"  />
+    <input type="text" placeholder="Write your topic"
+    class="poem-content" 
+    id="instruction"/>
+    <input type="submit" class="submit-button" placeholder="Generate" />
+    <div class="hint">i.e: Happiness, Children or Nature</div>
 </form>
 <br/>
 
-<div class="poem-line"  id="poem-line"></div>
+
+<div class="poem-line"  id="poem-line">
 <br />
-<br />
+<br /></div>
+
+<div class="poem hidden" id="poem"></div>
+</div>
 <br />
 </main>
 

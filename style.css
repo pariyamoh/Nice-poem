@@ -16,12 +16,21 @@ h1{
     max-width: 500px;
     margin: auto;
         border-right: 12px solid #3beaea;
-} 
+}
+
+.hint{
+    opacity: 6px;
+    font-size: 10px;
+    font-family: monospace;
+    margin-right: 110px;
+    padding-top: 10px;
+}
 .poem-line{
-    color: rgb(0, 0, 0);
+    color: rgb(61, 60, 60);
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: azure;    border-radius: 10px;
+    background-color: azure;    
+    border-radius: 10px;
     padding: 50px 50px 50px 50px;
     max-width: 500px;
     margin: auto;
@@ -36,5 +45,6 @@ h1{
     width: 100px;
 }
 .poem-content{
-    border-radius: 30px;
+    border-radius: 6px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
